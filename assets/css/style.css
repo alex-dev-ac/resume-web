@@ -596,6 +596,37 @@ main .contact{
 
 /*fin item*/
 
+.flex-outer-container {
+    display: flex;
+    width: 100%;
+    margin: -5vh 0;
+    justify-content: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    width: 100%;
+    max-width: 120rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+   
+  .flex-container .flex-item {
+    display: flex;
+    min-width: 10rem;
+    width: calc((100% - var(--margin) * var(--items) * 2) / var(--items));
+    min-height: 5.2rem;
+   /* padding: 1rem;*/
+    margin: var(--margin);
+    align-items: center;
+    justify-content: center;
+    background: var(--item-bg-color);
+    color: var(--text-color);
+    text-align: center;
+  }
+  
+
+
 
 @media only screen and (min-width: 540px){
     header{
