@@ -586,12 +586,13 @@ main .contact{
   }
 
   .card-portfolio {
-    background-color: #2eca7f;
-    width: 168px;
+    background-color: #f5f5f5;
+    width: 180px;
     padding: 5px;
-    border-radius: 8px;
-    height: 31px;
-    margin: 5px;
+    border-radius: 2px;
+    height: 25px;
+   /* margin: 5px;*/
+      margin:20px;
   }
 
 /*fin item*/
